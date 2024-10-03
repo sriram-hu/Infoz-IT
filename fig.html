@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>infotech</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+
+        }
+        .navabar{
+            margin-top: 28px;
+            
+            
+        }
+        a{
+            margin-left: 150px;
+            cursor: pointer;
+            font-size: 18px;
+            text-decoration: none;
+            color: black;
+         }
+        a:hover{
+            color:blue;
+         }
+        .btn{
+         margin-left: 550px;
+         margin-top:-162px;
+         font-weight:450;
+         font-size: 18px;
+         border: none;
+
+        }
+        .btn:hover{
+          color: blue;
+        }
+        .dropdown-menu{
+        width: 1390px;
+        height: 500px;
+        margin-top:300px;
+        margin-left: 300px;
+      
+
+    
+         }
+        .dropdown-menu li{
+         margin-left:-130px;
+         
+        
+        }
+        .dropdown-menu li:hover{
+          width: 200px;
+        
+         
+        }
+      h5{
+        margin-left: 300px;
+        margin-top: -250px;
+      }
+     .card1{      
+        height: 20vh;
+        width:280px;
+        border:1px solid;
+        background-color:white;
+        margin-left: 300px;
+        margin-top: 20px;
+        border-radius: 20px;
+    
+        
+      }
+      .card1:hover{
+        border-color:blue;
+      }
+      .card1 i:hover{
+        color: blue;
+        cursor: pointer;
+      }
+      .card1 h6:hover{
+        color: blue;
+        cursor: pointer;
+      }
+      .card2{
+        height: 20vh;
+        width:280px;
+        border:1px solid;
+        background-color:white;
+        margin-left: 300px;
+        margin-top: 20px;
+        border-radius: 20px;
+      }
+      .card2:hover{
+        border-color:blue;
+      }
+      .card2 i:hover{
+        color: blue;
+        cursor: pointer;
+      }
+      .card2 h6:hover{
+        color: blue;
+        cursor: pointer;
+      }
+      .card3{
+        height: 20vh;
+        width:280px;
+        border:1px solid;
+        background-color:white;
+        margin-left:600px;
+        margin-top:-317px;
+        border-radius: 20px;
+      }
+      
+      .card3:hover{
+        border-color:blue;
+      }
+      .card3 i:hover{
+        color: blue;
+        cursor: pointer;
+      }
+      .card3 h6:hover{
+        color: blue;
+        cursor: pointer;
+      }
+      .card4{
+        height: 20vh;
+        width:280px;
+        border:1px solid;
+        background-color:white;
+        margin-left:600px;
+        margin-top:20px;
+        border-radius: 20px;
+      }
+      .card4:hover{
+        border-color:blue;
+      }
+      .card4 i:hover{
+        color: blue;
+        cursor: pointer;
+      }
+      .card4 h6:hover{
+        color: blue;
+        cursor: pointer;
+      }
+      .fa-arrows-to-circle{
+        margin-left:900px;
+        font-size:50px;
+         cursor: pointer;
+      
+      }
+      .fa-arrows-to-circle:hover{
+        color: blue;
+      }
+      .card5{
+        height:66vh;
+        width: 385px;
+        background-color:#f3f3f3;
+        margin-left: 400px;
+        margin-top:-410px;
+      }
+      .card6{
+        height:66vh;
+        width: 385px;
+        background-color:#f3f3f3;
+        margin-left:1000px;
+        margin-top:-360px;
+      }
+      .section1 img{
+        margin-left:660px;
+        margin-top:-130px;
+        border-radius: 20px;
+      }
+      .card7{
+       height: 60vh;
+       width:880px; 
+       background-color:white;
+       margin-top: -450px;
+      }
+      .card7 h1{
+        margin-left:120px;
+        font-size: 80px;
+      }
+      .card7 h4{
+        margin-left:120px;
+        font-size: 30px;
+        margin-top:50px;
+        color: #333;
+      }
+      .card8{
+        height: 55vh;
+        width: 1365px;
+        background-color: black;
+        margin-left: 60px;
+        border-radius: 30px;
+        margin-top: 30px;
+      }
+      .card8 p{
+        color: white;
+        margin-left: 50px;
+      }
+      .section3{
+        height: 150vh;
+        width: 1480px;
+        background:linear-gradient(rgb(97, 150, 171),rgb(255, 249, 249));
+      }
+      .card9{
+        height: 48vh;
+        width:480px;
+        background-color: #f3f3f3;
+        margin-top: 40px;
+        margin-left:40px;
+      }
+      .card10{
+        height: 48vh;
+        width:480px;
+        background-color: #f3f3f3;
+        margin-top:-376px;
+        margin-left:525px; 
+      }
+      .card11{
+        height: 48vh;
+        width:450px;
+        background-color: #f3f3f3;
+        margin-top:-951px;
+        margin-left:1010px; 
+      }
+      .card12{
+        height: 50vh;
+        width:480px;
+        background-color: #f3f3f3;
+        margin-top:10px;
+        margin-left:35px;  
+      }
+      .card13{
+        height: 50vh;
+        width:480px;
+        background-color: #f3f3f3;
+        margin-top:-390px;
+        margin-left:520px; 
+      }
+      .card14{
+        height: 50vh;
+        width:450px;
+        background-color: #f3f3f3;
+        margin-top:-393px;
+        margin-left: 1010px;
+      }
+      button{
+        margin-left: 700px;
+        margin-top: 70px;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 20px;
+        background-color: blue;
+        color: white;
+      }
+      button:hover{
+        background-color: black;
+      }
+      
+    </style>
+</head>
+<body>
+   <div class="container"> 
+    <div class="navabar">
+        <div class="logo">
+            <img src="https://infozit.com/wp-content/uploads/2023/03/Infoz-IT.svg" alt width="180px">
+            <a href="#">Home</a>
+            
+            </div>
+            </div>
+           <hr>
+        </div>
+          </div>
+          </div>
+          </div>
+          
+         
+            <div class="dropdown-center">
+                <button class="btn btn- dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Solution
+                  
+                </button> 
+               
+
+               
+                
+                <ul class="dropdown-menu">
+                    <li><a style="font-size: 25px;" class="dropdown-item" href="#">Service</a></li>
+                    <li><a style="font-family: roboto;color: #333;" class="dropdown-item" href="#">Managed service</a></li>
+                    <li><a style="font-family: roboto;color: #333;" class="dropdown-item" href="#">iT consulting & Advisory</a></li>
+                    <li><a style="font-family: roboto;color: #333;" class="dropdown-item" href="#">Cyber Security</a></li>
+                    <li><a style="font-family: roboto;color: #333;" class="dropdown-item" href="#">Web Development</a></li>
+                    <li><a style="font-family: roboto;color: #333;" class="dropdown-item" href="#">Mobile Development</a></li>
+                    <li><a style="font-family: roboto;color: #333;" class="dropdown-item" href="#">Cloud Services</a></li>
+                    <h5>Business Challenges</h5>
+                    <i class="fa-solid fa-arrows-to-circle"></i>
+                    <div class="card1">
+                      <i style="margin-left: 50px;font-size:30px; margin-top:40px;" class="fa-brands fa-digital-ocean"></i>
+                        <h6 style="margin-left: 23px; margin-top:25px; font-size: 20px;">Digital Transformation</h6>
+                    </div>
+                    <div class="card2">
+                      <i style="margin-left: 50px;font-size:30px; margin-top:40px;"  class="fa-solid fa-robot"></i>
+                      <h6 style="margin-left: 23px; margin-top:25px;font-size: 20px;">Automation</h6>
+                    </div>
+                    <div class="card3">
+                      <i style="margin-left: 50px;font-size:30px; margin-top:40px;" class="fa-solid fa-file-shield"></i>
+                      <h6 style="margin-left: 23px; margin-top:25px;font-size: 20px;" >Security</h6>
+                    </div>
+                    <div class="card4">
+                      <i style="margin-left: 50px;font-size:30px; margin-top:40px;"  class="fa-brands fa-android"></i>
+                      <h6 style="margin-left:30px; margin-top:25px;font-size: 20px;">Gaining</h6>
+                    <div class="card5">
+                      <h3>Industry Focus</h3>
+
+                      <li><a style="font-family: roboto;color: #333;" class="dropdown-item" href="#">Industry Manufacturing</a></li>
+                      <li><a style="font-family: roboto;color: #333;" class="dropdown-item" href="#">Transportation Logistics</a></li>
+                      <li><a style="font-family: roboto;color: #333;" class="dropdown-item" href="#">Healthcare</a></li>
+                      <li><a style="font-family: roboto;color: #333;" class="dropdown-item" href="#">Bank & Insurance</a></li>
+                      <li><a style="font-family: roboto;color: #333;" class="dropdown-item" href="#">Consulting Providers</a></li>
+                      <li><a style="font-family: roboto;color: #333;" class="dropdown-item" href="#">Non Profit</a></li>
+                      </div>
+                      </div>
+
+                    </div>
+                      
+                      </div>
+                      </div>
+                     </ul>
+                     <div class="dropdown-center">
+                      <button style="margin-left: 700px;margin-top:-210px;" class="btn btn- dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Company
+                        
+                      </button> 
+                     <ul class="dropdown-menu">
+                    <li><a style="font-size: 25px;" class="dropdown-item" href="#"><h1 style="margin-left: 50px;margin-top: 30px;">Simplifying</h1><br><h1 style="margin-top: -40px;margin-left:40px;">for a complex world.</h1></a></li>
+                    <li><a style="font-family: roboto;color: #333; margin-left:850px;" class="dropdown-item" href="#">About</a></li>
+                    <li><a style="font-family: roboto;color: #333;margin-left:850px;" class="dropdown-item" href="#">Why us</a></li>
+                    <li><a style="font-family: roboto;color: #333;margin-left:850px;" class="dropdown-item" href="#">Team</a></li>
+                    <li><a style="font-family: roboto;color: #333;margin-left:850px;" class="dropdown-item" href="#">Careers</a></li>
+                    <li><a style="font-family: roboto;color: #333;margin-left:850px;" class="dropdown-item" href="#">Partners & Certification</a></li>
+                    <li><a style="font-family: roboto;color: #333;margin-left:850px;" class="dropdown-item" href="#">Reviews & Awards</a></li>
+                     <div class="card6">
+                      <li><a  class="dropdown-item" href="#">Platform Partnership</a></li>
+                      <img style="margin-left: 80px;" src="../IMAGES3/jai ganesha.png" alt width="50px">
+                      <a style="margin-top: -50px;"  class="dropdown-item" href="#">AWS</a>
+                      <img style="margin-left: 80px;margin-top:30px;cursor: pointer;" src="../IMAGES3/download - Copy.png"alt width="50px">
+                      <a style="margin-top: -50px;cursor: pointer;"  class="dropdown-item" href="#">Google Cloud</a>
+                     <img style="margin-left:70px;margin-top:30px;cursor: pointer;"src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-Dev-CP-MS-Logo"alt width="80px">
+                     <a style="margin-top: -50px;cursor: pointer;"  class="dropdown-item" href="#">MicroSoft</a>
+                     <img style="margin-left:70px;margin-top:30px; cursor: pointer;" src="../IMAGES3/download .14399.png" alt width="80px">
+                     <a style="margin-top: -50px;cursor: pointer;"  class="dropdown-item" href="#">Sale Force</a>
+                     </div>
+                     </div>
+                    </ul>
+                    <div class="dropdown-center">
+                      <button style="margin-left: 850px;margin-top:-255px;" class="btn btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Case studies
+                     
+                        <div class="dropdown-center">
+                          <button  style="margin-left: 1000px;margin-top:-298px;"class="btn btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Blog
+                            <div class="dropdown-center">
+                              <button  style="margin-left: 1100px;margin-top:-348px;background-color: #f3f3f3;font-size:15px;"class="btn btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Client Support
+                                <i class="fa-solid fa-arrow-right"></i>
+                                <div class="dropdown-center">
+                                  <button  style="margin-left: 1100px;margin-top:-328px;;"class="btn btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    9281-466-355
+                                    <button style="margin-left:1300px;margin-top: -450px;color: #f3f3f3;" type="button" class="btn btn-primary">Contact Us</button>
+
+                    </ul>
+                                  
+                    </ul>
+
+
+
+                       </div>
+                    </div>
+                    
+                  </ul>
+                </ul>
+
+              </div>
+              
+    </div>
+   </div> 
+   
+   </div>
+   <div class="section1">
+    <img src="https://infozit.com/wp-content/uploads/2023/03/GettyImages-618762080-1.jpg" alt width="730px">
+
+    <div class="card7">
+       <h1>We manage your IT,<br> so you can manage your business.
+      </h1>
+      <h4>Take charge of your business<br> continuity with innovative IT solutions
+      </h4>
+      <button style="margin-top: 30px; margin-left:120px; color: white;" type="button" class="btn btn-primary">schedule a Free Consultation</button>
+      <button  style="margin-top:30px; margin-left:30px;" class="btn btn-secondary">Service</button>
+
+
+    </div>
+    </div>
+   </div>
+  <hr style="margin-top:100px;margin-left:50px ;margin-right: 50px;">
+  <p style="margin-left: 60px;">REVIEWED ON :- </p>
+  <i style="color: red;margin-left:50px;margin-top:-50px; font-size:25px;cursor: pointer;" class="fa-solid fa-star"></i>
+  <i style="color: red;font-size:25px;cursor: pointer;"  class="fa-solid fa-star"></i>
+  <i  style="color: red;font-size:25px;cursor: pointer;"class="fa-solid fa-star"></i>
+  <i style="color: red;font-size:25px;cursor: pointer;" class="fa-solid fa-star"></i>
+  <i style="color: red;font-size:25px;cursor: pointer;" class="fa-solid fa-star"></i>
+  <h2 style="margin-left:80px;">Clutch</h2>
+
+  <p style="margin-left:180px;margin-top: -29px;">31 REWIEWS</p>
+  <img style="margin-left: 320px;margin-top: -180px;height:49px;color:#999;" src="https://cdn-icons-png.flaticon.com/512/7794/7794678.png" alt width="50px">
+   <h3 style="margin-left:400px;margin-top:-140px;">20 years</h3>
+   <p style="margin-left: 400px;font-size:20px;">Proven Track Record
+   </p>
+   <img style="margin-left: 620px;margin-top: -128px;height:49px;color:#999;" src="https://cdn-icons-png.flaticon.com/512/7794/7794678.png" alt width="50px">
+   <h3 style="margin-left:750px;margin-top:-116px;" >98%</h3>
+   <p style="margin-left: 700px;font-size:20px;">Customer Satisfaction </p>
+   <img style="margin-left: 920px;margin-top: -123px;height:49px;color:#999;" src="https://cdn-icons-png.flaticon.com/512/7794/7794678.png" alt width="50px">
+    <h3 style="margin-left:1000px;margin-top:-110px;">15,000 Projects</h3>
+    <p style="margin-left: 1000px;font-size:20px;" >We Have Completed
+      <img style="margin-top: -40px;margin-left: 30px;" src="https://cdn-icons-png.flaticon.com/512/7794/7794678.png" alt width="50px">
+      <h2 style="margin-left:1300px;margin-top:-90px;">3 Mins</h2>
+      <p style="margin-left: 1300px;font-size:20px;">Average Answer Time
+
+      </p>
+    </p>
+    <div class="section2">
+     <div class="card8">
+     <p>What we do</p>
+     <h2 style="color: rgb(220, 210, 210); margin-top:200px;margin-left: 50px;font-size: 50px;">Simplifying IT<br>
+      for a complex world.
+      </h2>
+      <img style="margin-left: 900px;margin-top: -320px;border-radius: 30px;cursor: pointer;" src="https://i.pinimg.com/736x/12/5f/81/125f815beb87de2a4899136c4f3959ee.jpg" alt width="350px">
+     </div>
+    </div>
+    <img style="margin-left: 60px;margin-top: 40px;" src="https://infozit.com/wp-content/uploads/2023/03/Cost-effectiveness.svg" alt width="60px">
+    <h2 style="margin-left:40px;margin-top:30px;">Cost-effectiveness
+    </h2>
+    <p style="margin-left: 50px;">We offer affordable IT solutions that<br> help you reduce costs and improve your<br> bottom line.
+
+    </p>
+    <img style="margin-left: 450px;margin-top:-460px;" src="https://infozit.com/wp-content/uploads/2023/03/Innovative.svg" alt="">
+    <h2 style="margin-left: 400px;margin-top: -150px;"
+    >Innovative Technology
+    </h2>
+    <p style="margin-left: 450px;" >We stay up-to-date with the latest<br> technology trends and offer innovative<br> solutions that help you stay ahead of<br> the competition.
+
+    </p>
+    <img style="margin-left: 850px;margin-top:-510px;" src="https://infozit.com/wp-content/uploads/2023/03/Industry.svg" alt="">
+    <h2 style="margin-left: 800px;margin-top:-180px;" >Industry Expertise
+    </h2>
+    <p style="margin-left: 820px;">We specialize in serving specific<br> industries, such as healthcare, finance,<br> or manufacturing, and offer tailored<br>solutions that meet your unique needs.
+
+    </p>
+    <img style="margin-left: 1250px;margin-top: -500px;" src="https://infozit.com/wp-content/uploads/2023/03/Scalability.svg" alt="">
+    <h2 style="margin-left: 1200px;margin-top:-180px;">Scalability
+    </h2>
+    <p style="margin-left: 1190px;">Our solutions are scalable and can grow<br> with your business, ensuring that you<br> get the most value out of your<br> investment.
+
+    </p>
+    <hr style="margin-top:100px;margin-left:50px ;margin-right: 50px;">
+    <p style="margin-left: 50px;margin-top: 40px;color: blue;cursor: pointer;">About Tecnologia</p>
+    <div class="section3">
+<button style="margin-left: 50px;margin-top: 50px;border-radius: 10px;background-color: #999;border: none;padding: 5px;">HOW WE DO
+</button>
+<h1 style="margin-left: 100px;margin-top: 50px;">Solutions
+  </h1>
+  <div class="card9">
+<img  style="margin-left: 130px;" src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/management-business-logo-design-template-029c8183c7ec4ff641c3853170a304ed_screen.jpg?ts=1584223008" alt width="150px">
+<h3 style="margin-left: 30px;">Management Services</h3>
+<p style="font-size: 15px;font-family: roboto ;margin-left: 50px;">Free up your internal<br> resources to focus on the <br>business by handle day to day support<br> services,management,and monintoring of your IT</p>
+<hr>
+<p style="font-size: 15px;font-family: roboto ;margin-left: 50px;color: blue;cursor: pointer;" >learn more</p>
+  </div>
+<div class="card10">
+<img style="margin-left: 130px;" src="https://t3.ftcdn.net/jpg/04/20/28/62/360_F_420286271_yiYPDv8IQPs1yAhwxrldSa6GLGn8v0Ik.jpg" alt width="150px">
+<h3 style="margin-left: 50px;">IT Consulting & Advisory</h3>
+<p style="margin-left: 50px;">The right technology,implement properly,<br> appropriately managed and monitored, can lead to<br> significant gains in grown</p>
+<hr style="margin-top: 55px;">
+<p style="font-size: 15px;font-family: roboto ;margin-left: 50px;color: blue;cursor: pointer;">learn more</p>
+</div>
+
+    </div>
+    <div class="card11">
+<img style="margin-left: 130px;" src="https://img.freepik.com/free-vector/flat-computer-logo-template_23-2149008085.jpg" alt width="150px">
+<h3 style="margin-left: 60px;">Cyber Security</h3>
+<p style="margin-left: 30px;">Our Expertiseerts can identify<br> vulnerabilities,assess risks,<br> and implement robust securtity<br> measures to safegurd your system and data</p>
+<hr style="margin-top:-8px;">
+<p style="font-size: 15px;font-family: roboto ;margin-left: 50px;color: blue;cursor: pointer;">learn more</p>
+
+    </div>
+  <div class="card12">
+<img  style="margin-left: 125px;margin-top: 28px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRl_6AuG1TxzQdGmZSN4pF02iLepIl6-4ucQ&usqp=CAU" alt width="150px">
+<h3 style="margin-left:80px;margin-top: 50px;">Web Development</h3>
+<p style="margin-left: 50px;">Our web develoment services can help you estabilsh<br> an impactful online presence and reach your target<br> audience effectively</p>
+<hr>
+<p style="font-size: 15px;font-family: roboto ;margin-left: 50px;color: blue;cursor: pointer;">learn more</p>
+
+  </div>
+  <div class="card13">
+<img style="margin-left: 89px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXiPoWbTeQrmgAcl243Hb4TC5eQr48eLzQFA&usqp=CAU" alt width="210px">
+<h3 style="margin-left: 50px;margin-top:27px;">Mobile Development</h3>
+<p style="margin-left: 50px;">We can help you create a customized mobile app that <br>aligns with your brant and goals, with expertise in<br> various mobile platform</p>
+<hr style="margin-top: 25px;">
+<p style="font-size: 15px;font-family: roboto ;margin-left: 50px;color: blue;cursor: pointer;">learn more</p>
+
+  </div>
+  <div class="card14">
+<img style="margin-left: 130px;" src="https://t4.ftcdn.net/jpg/02/14/21/95/360_F_214219533_Menq9ciAubWU5ShUkYq7VQGtXELJgmHt.jpg" alt width="150px">
+<h3 style="margin-left: 70px;margin-top: 20px;">Cloud Service</h3>
+<p style="margin-left: 50px;">With our expertise in cloud techologies,we can help<br> you find the right cloud solution that meet your<br> business needs and goals</p>
+<hr style="margin-top: 30px;">
+<p style="font-size: 15px;font-family: roboto ;margin-left: 50px;color: blue;cursor: pointer;">learn more</p>
+
+  </div>
+  <button>View all solution</button>
+</body>
+</html>
